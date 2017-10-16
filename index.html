@@ -13,11 +13,12 @@
 	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
 	<link rel="stylesheet" type="text/css" href="css/slick.css">
 	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="animate.css">
 </head>
 <body>
 
 	<div class="navbar-fixed">
-		<nav role="navigation">
+		<nav role="navigation"  class="wow bounceInDown">
 			<div class="nav-wrapper">
 				<div class="container">
 					<ul class="right hide-on-med-and-down">
@@ -50,6 +51,7 @@
 			<div class="photo"><img src="images/1.jpg"></div>
 		</div>
 	</div>
+
 
 	<div class="section no-pad-bot white scrollspy" id="about" >
 		<div class="container">
@@ -158,5 +160,10 @@
   });
 });
 	</script>
+	
+	<script src="wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 </body>
 </html>
