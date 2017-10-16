@@ -21,20 +21,20 @@
 			<div class="nav-wrapper">
 				<div class="container">
 					<ul class="right hide-on-med-and-down">
-						<li><a href="#home">Home</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#events">Events</a></li>
+						<li><a href="./index.html#home">Home</a></li>
+						<li><a href="./index.html#about">About</a></li>
+						<li><a href="./index.html#events">Events</a></li>
 						<li><a href="#team">Our Team</a></li>
-						<li><a href="#sponsor">Sponsors</a></li>
-						<li><a href="#contact">Contact Us</a></li>
+						<li><a href="./index.html#sponsor">Sponsors</a></li>
+						<li><a href="./index.html#contact">Contact Us</a></li>
 					</ul>
 					<ul id="nav-mobile" class="side-nav">
-						<li class="active"><a href="#">Home</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#events">Events</a></li>
+						<li class="active"><a href="./index.html#home">Home</a></li>
+						<li><a href="./index.html#about">About</a></li>
+						<li><a href="./index.html#events">Events</a></li>
 						<li><a href="#team">Our Team</a></li>
-						<li><a href="#sponsor">Sponsors</a></li>
-						<li><a href="#contact">Contact Us</a></li>
+						<li><a href="./index.html#sponsor">Sponsors</a></li>
+						<li><a href="./index.html#contact">Contact Us</a></li>
 					</ul>
 					<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
 				</div>
@@ -42,35 +42,7 @@
 		</nav>
 	</div>
 
-	<div id="home" class="scrollspy fadeInUp">
-		<div class="slick-slider js-slick">
-			<div class="photo is-animating"><img src="images/1.jpg"></div>
-			<div class="photo"><img src="images/1.jpg"></div>
-			<div class="photo"><img src="images/1.jpg"></div>
-			<div class="photo"><img src="images/1.jpg"></div>
-		</div>
-	</div>
-
-	<div class="section no-pad-bot white scrollspy" id="about" >
-		<div class="container">
-			<h4>About Us</h4><!--Make 2 sections of SAE-Management and SAE-BAJA-->
-			<div class="row">
-				<div class="col s12">
-					<div class="card horizontal">
-						<div class="waves-effect waves-block waves-light">
-							<img class="activator" src="images/1.jpg"></img>
-						</div>
-						<div class="text">
-							SAE India collegiate chapter of NIT Durgapur was conceived in 2007 with an idea to integrate the students of the college into international fabric of automobile engineering. Presently 200 students are enjoying the benefits of SAE India membership. <br>We organize a number of innovative events, workshops and lectures round the year and a competitive place where the sharpest minds battle in the quest to achieve disctinction. The amalgamation of all these events under a single roof, during the month of February finally results in the onique odyssey called 'Motor Zundung' which is the largest Auto fest of Eastern India. SAE NIT Durgapur also publishes its annual magazine called 'Autopia'.
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="events" class="section scrollspy"><h1>Events</h1></div>
-
+	
 	<div id="team" class="section scrollspy">
 		<div class="container2">
 			<h4>Our Team</h4><br>
@@ -116,14 +88,8 @@
 					</div>
 				</div>
 			</div>
-			<a href="./team.html"><button class="waves-effect waves-red">All Members</button></a>
 		</div>
 	</div>
-
-	<div id="fest" class="section scrollspy"><h1>Sponsors</h1></div>
-
-	<div id="contact" class="section scrollspy"><h1>Contact Form</h1></div>
-
 	<footer class="page-footer">
 		<div class="container">
 			<span style="font-size: 16px; color: #e3f2fd;letter-spacing: 1px;">Designed & maintained by SAE India - NIT Durgapur</span>
@@ -140,22 +106,6 @@
 		 $(document).ready(function () {
 		 	$('.scrollspy').scrollSpy();
 		 	$(".button-collapse").sideNav();
-  $('.js-slick').slick({
-    autoplay: true,
-    autoplaySpeed: 3000,
-    dots: true,
-    draggable: false,
-    fade: true,
-    speed: 1000
-  });
-  
-  $('.js-slick').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
-    $(slick.$slides).removeClass('is-animating');
-  });
-  
-  $('.js-slick').on('afterChange', function(event, slick, currentSlide, nextSlide) {
-    $(slick.$slides.get(currentSlide)).addClass('is-animating');
-  });
 });
 	</script>
 </body>
