@@ -43,11 +43,11 @@
   flex-basis: 50%;
 }
 .text p {
+  font-family: Comic Sans MS;
   font-size: 1.0rem;
   margin-top: 2px;
   margin-left: 10px;
   flex: 1;
-  font-family: Comic Sans MS;
 }
 .team-des {
 	text-align: center;
