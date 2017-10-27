@@ -5843,7 +5843,7 @@ button.btn-floating {
 
 .chips {
   border: none;
-  border-bottom: 1px solid #9e9e9e;
+  border-bottom: 1px solid #e0e0e0;
   -webkit-box-shadow: none;
           box-shadow: none;
   margin: 0 0 20px 0;
@@ -5854,7 +5854,7 @@ button.btn-floating {
 }
 
 .chips.focus {
-  border-bottom: 1px solid #26a69a;
+  border-bottom: 1px solid #ffffff;
   -webkit-box-shadow: 0 1px 0 0 #26a69a;
           box-shadow: 0 1px 0 0 #26a69a;
 }
@@ -5996,7 +5996,7 @@ input[type=search]:not(.browser-default),
 textarea.materialize-textarea {
   background-color: transparent;
   border: none;
-  border-bottom: 1px solid #9e9e9e;
+  border-bottom: 1px solid #ffffff;
   border-radius: 0;
   outline: none;
   height: 3rem;
@@ -6083,7 +6083,7 @@ input[type=tel]:not(.browser-default):focus:not([readonly]),
 input[type=number]:not(.browser-default):focus:not([readonly]),
 input[type=search]:not(.browser-default):focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-  border-bottom: 1px solid #26a69a;
+  border-bottom: 1px solid #ffffff;
   -webkit-box-shadow: 0 1px 0 0 #26a69a;
           box-shadow: 0 1px 0 0 #26a69a;
 }
@@ -6204,7 +6204,7 @@ input[type=search].valid:not(.browser-default),
 input[type=search].valid:not(.browser-default):focus,
 textarea.materialize-textarea.valid,
 textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-dropdown {
-  border-bottom: 1px solid #4CAF50;
+  border-bottom: 1px solid #ffffff;
   -webkit-box-shadow: 0 1px 0 0 #4CAF50;
           box-shadow: 0 1px 0 0 #4CAF50;
 }
@@ -6731,7 +6731,7 @@ form p:last-child {
   border-top: 2px solid transparent;
   border-left: 2px solid transparent;
   border-right: 2px solid #26a69a;
-  border-bottom: 2px solid #26a69a;
+  border-bottom: 2px solid #ffffff;
   -webkit-transform: rotate(40deg);
           transform: rotate(40deg);
   -webkit-backface-visibility: hidden;
