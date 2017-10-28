@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100);
 form.contact-form {
   width: 100%;
-  background: #000000;
-  opacity: 0.7;
-  max-width: 650px;
+  background: #eeeeee;
+  opacity: 0.8;
+  max-width: 500px;
   margin: 10px auto;
   font-size: 15.5px;
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -12,12 +12,12 @@ form.contact-form {
   letter-spacing: -0.5px;
   -webkit-transition: box-shadow 0.4s ease;
   transition: box-shadow 0.4s ease;
-  box-shadow: 0px 2px 10px #000000;
+  box-shadow: 0px 2px 10px #666666;
 }
 
 
 .contact-us{
-  background-image: url(../images/ContactBackground.jpg);
+  background-image: url(../images/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -25,12 +25,12 @@ form.contact-form {
 
 
 form.contact-form:hover {
-  box-shadow: 0px 2px 6px #cccccc, 0px 0px 6px #999999;
+  box-shadow: 0px 4px 16px #000000
 }
 form.contact-form span {
   text-align: center;
   display: block;
-  color: #ffffff;
+  color: #1a1a1a;
   padding: 19.375px 19.375px 7.75px;
   font: inherit;
   font-weight: 100;
@@ -44,7 +44,7 @@ form.contact-form ul {
 }
 form.contact-form ul li {
   padding: 0;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #b3b3b3;
   margin: 0;
   text-align: center;
   width: 100%;
@@ -66,7 +66,6 @@ form.contact-form ul li input[type="text"] {
   padding: 10.33333385px 2%;
   border: 0;
   border-bottom: 3px solid rgba(0, 0, 0, 0);
-  color: #ffffff;
   text-align: left;
   font-family: inherit;
   font-size: inherit;
@@ -74,50 +73,44 @@ form.contact-form ul li input[type="text"] {
   -webkit-transition: border-bottom 0.35s ease;
   transition: border-bottom 0.35s ease;
 }
-form.contact-form ul li input[type="text"]:hover {
+/*form.contact-form ul li input[type="text"]:hover {
   outline: none;
-  box-shadow: 0px 1px 0px #999999, 0px 0px 0px #ffffff;
-}
-
+  box-shadow: 0px 2px 0px #999999, 0px 0px 0px #666666;
+}*/
 form.contact-form ul li input[type="text"]:focus {
   outline: none;
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 2px solid #26a69a;
 }
-
 form.contact-form ul li input[type="text"]::-webkit-input-placeholder {
   -webkit-transition: color 0.35s ease;
   transition: color 0.35s ease;
-  color: #ccc;
+  color: #999999;
 }
 form.contact-form ul li input[type="text"]:-moz-placeholder {
   -webkit-transition: color 0.35s ease;
   transition: color 0.35s ease;
-  color: #ccc;
+  color: #999999;
 }
 form.contact-form ul li input[type="text"]::-moz-placeholder {
   -webkit-transition: color 0.35s ease;
   transition: color 0.35s ease;
-  color: #ccc;
+  color: #999999;
 }
 form.contact-form ul li input[type="text"]:-ms-input-placeholder {
   -webkit-transition: color 0.35s ease;
   transition: color 0.35s ease;
-  color: #ccc;
+  color: #999999;
 }
 form.contact-form ul li input[type="text"]:focus::-webkit-input-placeholder {
-  color: #ffffff;
   font-size: 12px;
 }
 form.contact-form ul li input[type="text"]:focus:-moz-placeholder {
-  color: #ffffff;
   font-size: 12px;
 }
 form.contact-form ul li input[type="text"]:focus::-moz-placeholder {
-  color: #ffffff;
   font-size: 12px;
 }
 form.contact-form ul li input[type="text"]:focus:-ms-input-placeholder {
-  color: #ffffff;
   font-size: 12px;
 }
 form.contact-form ul li textarea {
@@ -128,11 +121,10 @@ form.contact-form ul li textarea {
   padding: 10.33333385px 2%;
   resize: none;
   border: 0;
-  color: #ffffff;
   border-bottom: 3px solid rgba(0, 0, 0, 0);
   text-align: left;
   height: auto;
-  min-height: 133px;
+  min-height: 170px;
   margin: 0;
   font-size: inherit;
   font-weight: inherit;
@@ -140,15 +132,13 @@ form.contact-form ul li textarea {
   -webkit-transition: border-bottom 0.35s ease;
   transition: border-bottom 0.35s ease;
 }
-
-form.contact-form ul li textarea:hover {
+/*form.contact-form ul li textarea:hover {
   outline: none;
-  box-shadow: 0px 1px 0px #999999, 0px 0px 0px #ffffff;
-}
-
+  box-shadow: 0px 2px 0px #999999, 0px 0px 0px #ffffff;
+}*/
 form.contact-form ul li textarea:focus {
   outline: none;
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 3px solid #999999;
 }
 form.contact-form ul li textarea::-webkit-scrollbar {
   width: 4px;
@@ -160,37 +150,33 @@ form.contact-form ul li textarea::-webkit-scrollbar-thumb {
 form.contact-form ul li textarea::-webkit-input-placeholder {
   -webkit-transition: color 0.35s ease;
   transition: color 0.35s ease;
-  color: #ccc;
+  color: #999999;
 }
 form.contact-form ul li textarea:-moz-placeholder {
   -webkit-transition: color 0.35s ease;
   transition: color 0.35s ease;
-  color: #ccc;
+  color: #999999;
 }
 form.contact-form ul li textarea::-moz-placeholder {
   -webkit-transition: color 0.35s ease;
   transition: color 0.35s ease;
-  color: #ccc;
+  color: #999999;
 }
 form.contact-form ul li textarea:-ms-input-placeholder {
   -webkit-transition: color 0.35s ease;
   transition: color 0.35s ease;
-  color: #ccc;
+  color: #999999;
 }
 form.contact-form ul li textarea:focus::-webkit-input-placeholder {
-  color: #ffffff;
   font-size: 12px;
 }
 form.contact-form ul li textarea:focus:-moz-placeholder {
-  color: #ffffff;
   font-size: 12px;
 }
 form.contact-form ul li textarea:focus::-moz-placeholder {
-  color: #ffffff;
   font-size: 12px;
 }
 form.contact-form ul li textarea:focus:-ms-input-placeholder {
-  color:#ffffff;
   font-size: 12px;
 }
 form.contact-form ul li input[type="submit"] {
@@ -199,7 +185,7 @@ form.contact-form ul li input[type="submit"] {
   border: 1px solid #ef767a;
   display: inline-block;
   border-radius: 6px;
-  background: #ff4d4d;
+  background: #ea484e;
   font-weight: inherit;
   font-family: inherit;
   font-size: inherit;
@@ -210,12 +196,12 @@ form.contact-form ul li input[type="submit"] {
 }
 form.contact-form ul li input[type="submit"]:focus {
   outline: none;
-  border: 1px solid #ff1a1a;
+  border: 1px solid #f7bbbd;
 }
 form.contact-form ul li input[type="submit"]:hover {
-  background: #ffffff;
+  background: #fce8e9;
   color: black;
-  border: 1px solid #ffffff;
+  border: 1px solid #f7bbbd;
 }
 form.contact-form ul li input[type="submit"]:active {
   background: #d0d0d0;
