@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 .slick-slide {
-  margin: 0 5px;
+  margin: 0 0px;
 }
 .slick-list {
   margin: 0px -5px 0px -5px;
@@ -35,7 +35,8 @@ button.slick-prev, button.slick-prev:hover {
   font-weight: bold;
 }
 .rio-promos img {
-  height: 324px;
+  height: 400px;
+  width: 25%;
 }
 
 /* Slick Slider Styles -- Provided by https://kenwheeler.github.io/slick/ */
