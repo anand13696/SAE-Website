@@ -1,5 +1,5 @@
 #about, #event, #team, #contact {
-	padding-top: 50px;
+	padding-top: 30px;
 }
 
 .container2 {
@@ -17,8 +17,7 @@
 
 .photo img{
 	width: 100%;
-	height: auto;
-	max-height: 650px;
+	height: 650px;
 }
 .horizontal {
   display: flex;
@@ -33,20 +32,16 @@
     flex: 1;
 }
 .text {
-  float: right;
   text-align: left;
-  margin-top: 20px;
-  margin-left: 20px;
-  font-size: 1.0rem;
+  margin-top: 10px;
   line-height: 1.2rem;
   flex: 1;
   flex-basis: 50%;
 }
 .text p {
   font-family: Comic Sans MS;
-  font-size: 1.0rem;
+  font-size: 1.15rem;
   margin-top: 2px;
-  margin-left: 10px;
   flex: 1;
 }
 .team-des {
