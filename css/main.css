@@ -17,7 +17,8 @@
 
 .photo img{
 	width: 100%;
-	height: 650px;
+  height: auto;
+	max-height: 650px;
 }
 .horizontal {
   display: flex;
@@ -44,14 +45,40 @@
   margin-top: 2px;
   flex: 1;
 }
+.team-index {
+  text-align: center;
+  margin: 10px 0px;
+}
+.team-index img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+.team-index i{
+  color: #fff;
+}
+.team-index a{
+  padding: 0.5rem;
+}
 .team-des {
 	text-align: center;
 	margin: 10px 0px;
 }
 .team-des img{
-	width: 200px;
-	height: 200px;
+	width: 160px;
+	height: 160px;
 	border-radius: 100px;
+}
+.team-des a{
+  padding: 0 0.25rem;
+}
+.team-s {
+  text-align: center;
+}
+.team-s img {
+  width: 110px;
+  height: 110px;
+  border-radius: 60px;
 }
 footer {
 	padding: 20px 0px;
