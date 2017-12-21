@@ -40,10 +40,11 @@
   flex-basis: 50%;
 }
 .text p {
-  font-family: Comic Sans MS;
-  font-size: 1.15rem;
+  font-family: Arial;
+  font-size: 18px;
   margin-top: 2px;
   flex: 1;
+  line-height: 32px;
 }
 .team-index {
   text-align: center;
