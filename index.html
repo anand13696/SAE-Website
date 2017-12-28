@@ -11,12 +11,10 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/contact-us.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/materialize.css">
-	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
-	<link rel="stylesheet" type="text/css" href="css/slick.css">
-	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 
@@ -256,27 +254,31 @@
 		</div>
 		
 		<div class="contact-us" class="section scrollspy">
-			<form action="" class="contact-form">
+			<form action="mail.php" method="post" class="contact-form">
 				<div id="contact" class="section scrollspy"><span>Contact Us</span></div>
 				<ul>
 					<li>
 						<!-- <i class="fa fa-user form-icon"></i> -->
-						<input type="text" placeholder="Name" />
+						<label for="name"></label>
+						<input type="text" name="name" placeholder="Name" required autocomplete="off" />
 					</li>
 					<li>
 						<!-- <i class="fa fa-at form-icon"></i> -->
-						<input type="text" placeholder="Email" />
+						<label for="email"></label>
+						<input type="text" name="email" placeholder="Email" required autocomplete="off" />
 					</li>
 					<li>
 						<!-- <i class="fa fa-university form-icon"></i> -->
-						<input type="text" placeholder="Organization/Academic Institution" />
+						<label for="college"></label>
+						<input type="text" name="college" placeholder="Organization/Academic Institution" required autocomplete="off" />
 					</li>
 					<li>
 						<!-- <i class="fa fa-envelope form-icon"></i> -->
-						<textarea placeholder="Message" rows="2"></textarea>
+						<label for="message"></label>
+						<textarea name="message" placeholder="Message" rows="2" required autocomplete="off"></textarea>
 					</li>
 					<li>
-						<input type="submit" placeholder="Submit" />
+						<input type="submit" value="Send" placeholder="Submit" />
 					</li>
 				</ul>
 			</form>
