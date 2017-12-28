@@ -20,7 +20,7 @@
 		<nav role="navigation"  class="wow bounceInDown">
 			<div class="nav-wrapper">
 				<ul class="right hide-on-med-and-down">
-					<li><a href="./index.html#home">Home</a></li>
+					<li><a href="./index.html">Home</a></li>
 					<li><a href="./index.html#about">About</a></li>
 					<li><a href="./index.html#events">Events</a></li>
 					<li><a href="#team">Our Team</a></li>
@@ -28,7 +28,7 @@
 					<li><a href="./index.html#contact">Contact Us</a></li>
 				</ul>
 				<ul id="nav-mobile" class="side-nav">
-					<li class="active"><a href="#">Home</a></li>
+					<li class="active"><a href="./index.html">Home</a></li>
 					<li><a href="./index.html#about">About</a></li>
 					<li><a href="./index.html#events">Events</a></li>
 					<li><a href="#team">Our Team</a></li>
@@ -374,6 +374,12 @@
 	<script src="js/materialize.min.js"></script>
 	<script src="js/slick.js"></script>
 	<script src="js/slick.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+	 		$('.scrollspy').scrollSpy();
+	 		$(".button-collapse").sideNav();
+		});
+	</script>
 
 </body>
 </html>
