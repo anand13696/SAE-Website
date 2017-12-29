@@ -65,6 +65,7 @@
   height: 200px;
   border-radius: 100px;
   transition-duration: 400ms;
+  animation: roll 1000ms;
 }
 
 /*
