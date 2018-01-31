@@ -255,24 +255,25 @@
 					<li>
 						<!-- <i class="fa fa-user form-icon"></i> -->
 						<label for="name"></label>
-						<input type="text" name="name" placeholder="Name" required autocomplete="off" />
+						<input type="text" name="name" placeholder="Name"  autocomplete="off" />
 					</li>
 					<li>
 						<!-- <i class="fa fa-at form-icon"></i> -->
 						<label for="email"></label>
-						<input type="text" name="email" placeholder="Email" required autocomplete="off" />
+						<input type="text" name="email" placeholder="Email"  autocomplete="off" />
 					</li>
 					<li>
 						<!-- <i class="fa fa-university form-icon"></i> -->
 						<label for="college"></label>
-						<input type="text" name="college" placeholder="Organization/Academic Institution" required autocomplete="off" />
+						<input type="text" name="college" placeholder="Organization/Academic Institution"  autocomplete="off" />
 					</li>
 					<li>
 						<!-- <i class="fa fa-envelope form-icon"></i> -->
 						<label for="message"></label>
-						<textarea name="message" placeholder="Message" rows="2" required autocomplete="off"></textarea>
+						<textarea name="message" placeholder="Message" autocomplete="off"></textarea>
 					</li>
-					<li>
+					<li><br>
+						<strong style="color: red;">Invalid Credentials....!!</strong><br>
 						<input type="submit" value="Send" placeholder="Submit" />
 					</li>
 				</ul>
