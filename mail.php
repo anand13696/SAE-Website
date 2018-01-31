@@ -6,7 +6,7 @@ if(isset($_POST['email'])) {
     $email_subject = "Suggestions From SAE-Website";
  
     function died($error) {
-        header("Location:redirect.php");
+         header("Location:index.php");
         // echo $error."<br /><br />";
         // echo "Please go back and fix these errors.<br /><br />";
         die();
@@ -59,7 +59,7 @@ $headers = 'From: '.$email_from."\r\n".
 'Reply-To: '.$email_from."\r\n" .
 'X-Mailer: PHP/' . phpversion();
 mail($email_to, $email_subject, $email_message, $headers) or die("Failure");
-header("Location:index.php");
+header("Location:redirect.php#contact");
 ?>
 <?php
 }

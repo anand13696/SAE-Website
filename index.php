@@ -255,17 +255,17 @@
 					<li>
 						<!-- <i class="fa fa-user form-icon"></i> -->
 						<label for="name"></label>
-						<input type="text" name="name" placeholder="Name"  autocomplete="off" />
+						<input type="text" name="name" placeholder="Name" required autocomplete="off" />
 					</li>
 					<li>
 						<!-- <i class="fa fa-at form-icon"></i> -->
 						<label for="email"></label>
-						<input type="text" name="email" placeholder="Email"  autocomplete="off" />
+						<input type="text" name="email" placeholder="Email" required autocomplete="off" />
 					</li>
 					<li>
 						<!-- <i class="fa fa-university form-icon"></i> -->
 						<label for="college"></label>
-						<input type="text" name="college" placeholder="Organization/Academic Institution"  autocomplete="off" />
+						<input type="text" name="college" placeholder="Organization/Academic Institution" required autocomplete="off" />
 					</li>
 					<li>
 						<!-- <i class="fa fa-envelope form-icon"></i> -->
