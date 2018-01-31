@@ -66,6 +66,7 @@
   border-radius: 100px;
   transition-duration: 400ms;
   animation: roll 1000ms;
+  animation-delay: 300ms;
 }
 
 /*
@@ -88,14 +89,14 @@
   -ms-transition: border-radius 400ms;
   -o-transition: border-radius 400ms;
   transition: border-radius 400ms;
-  /*transform: rotate(-15deg);*/
 }
 .team-des img:hover {
   width: 160px;
   height: 160px;
   border-radius: 80px;
-  transition-duration: 400ms;
+  transition-duration: 300ms;
   animation: roll 1000ms;
+  animation-delay: 300ms;
 }
 .team-des a{
   padding: 0 0.25rem;
@@ -120,6 +121,7 @@
   border-radius: 55px;
   transition-duration: 200ms;
   animation: roll 800ms;
+  animation-delay: 150ms;
 }
 @keyframes roll {
   0% {
