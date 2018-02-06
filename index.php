@@ -270,7 +270,7 @@
 					<li>
 						<!-- <i class="fa fa-envelope form-icon"></i> -->
 						<label for="message"></label>
-						<textarea name="message" placeholder="Message" rows="2" required autocomplete="off"></textarea>
+						<textarea name="message" placeholder="Message" autocomplete="off"></textarea>
 					</li>
 					<li>
 						<input type="submit" value="Send" placeholder="Submit" />
