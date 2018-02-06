@@ -65,7 +65,8 @@ mail($email_to, $email_subject, $email_message, $headers) or die("Failure");
  
 <!-- include your own success html here -->
  
-Thank you for contacting us. We will be in touch with you very soon.
+echo "<script> location.href='index.html'; </script>";
+        exit;
  
 <?php
 }
