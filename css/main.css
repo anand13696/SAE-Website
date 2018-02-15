@@ -16,8 +16,10 @@
     width: 85%; } }
 
 .photo img{
-	width: 100%;
-  height: auto;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: none;
+  width: 100%;
 	max-height: 650px;
 }
 .horizontal {
@@ -46,6 +48,30 @@
   flex: 1;
   line-height: 32px;
 }
+
+.team-top {
+  text-align: center;
+  /*margin: 100px 0px;*/
+}
+.team-top img{
+  width: 250px;
+  height: 250px;
+  border-radius: 40px;
+  -webkit-transition: border-radius 300ms;
+  -moz-transition: border-radius 300ms;
+  -ms-transition: border-radius 300ms;
+  -o-transition: border-radius 300ms;
+  transition: border-radius 300ms;
+}
+.team-top img:hover {
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+  transition-duration: 300ms;
+  animation: roll 500ms;
+  animation-delay: 300ms;
+}
+
 .team-index {
   text-align: center;
   margin: 10px 0px;
@@ -54,17 +80,17 @@
   width: 200px;
   height: 200px;
   border-radius: 40px;
-  -webkit-transition: border-radius 400ms;
-  -moz-transition: border-radius 400ms;
-  -ms-transition: border-radius 400ms;
-  -o-transition: border-radius 400ms;
-  transition: border-radius 400ms;
+  -webkit-transition: border-radius 300ms;
+  -moz-transition: border-radius 300ms;
+  -ms-transition: border-radius 300ms;
+  -o-transition: border-radius 300ms;
+  transition: border-radius 300ms;
 }
 .team-index img:hover {
   width: 200px;
   height: 200px;
   border-radius: 100px;
-  transition-duration: 400ms;
+  transition-duration: 300ms;
   animation: roll 1000ms;
   animation-delay: 300ms;
 }
@@ -84,11 +110,11 @@
 	width: 160px;
 	height: 160px;
 	border-radius: 35px;
-  -webkit-transition: border-radius 400ms;
-  -moz-transition: border-radius 400ms;
-  -ms-transition: border-radius 400ms;
-  -o-transition: border-radius 400ms;
-  transition: border-radius 400ms;
+  -webkit-transition: border-radius 300ms;
+  -moz-transition: border-radius 300ms;
+  -ms-transition: border-radius 300ms;
+  -o-transition: border-radius 300ms;
+  transition: border-radius 300ms;
 }
 .team-des img:hover {
   width: 160px;
