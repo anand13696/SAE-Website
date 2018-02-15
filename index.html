@@ -14,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/materialize.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 <body>
 
@@ -147,8 +148,8 @@
 							<h5>Arvind Satya</h5>
 							<h6><i>President</i></h6>
 							<a href="https://www.facebook.com/satyaarvind"><i class="fa fa-facebook fa-lg"></i></a>
-							<a href="#"><i class="fa fa-phone fa-lg" onclick="alert('Arvind Satya: 7063698718')"></i></a>
-							<a href="mailto:sae.nitdgp1@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
+							<a href="#"><i class="fa fa-phone fa-lg"  data-toggle="tooltip" title="Arvind Satya: 7063698718"></i></a>
+							<a href=""><i class="fa fa-envelope fa-lg"  data-toggle="tooltip" title="arvindsatya11@gmail.com"></i></a>
 							
 						</div>
 					</div>
@@ -158,8 +159,8 @@
 							<h5>Shubham Singh</h5>
 							<h6><i>General Secretary</i></h6>
 							<a href="https://www.facebook.com/shubham600937?ref=br_rs"><i class="fa fa-facebook fa-lg"></i></a>
-							<a href="#"><i class="fa fa-phone fa-lg" onclick="alert('Subham Singh: 8765320081')"></i></a>
-							<a href="mailto:sae.nitdgp1@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
+							<a href="#"><i class="fa fa-phone fa-lg"  data-toggle="tooltip" title="Shubham Singh: 8765320081"></i></a>
+							<a href=""><i class="fa fa-envelope fa-lg"  data-toggle="tooltip" title="shubhamsingh.singh375@gmail.com"></i></a>
 						</div>
 					</div>
 					<div class="col s12 m6 l3">
@@ -168,8 +169,8 @@
 							<h5>Ananya Roy</h5>
 							<h6><i>Convenor</i></h6>
 							<a href="https://www.facebook.com/ananya.roy27?ref=br_rs"><i class="fa fa-facebook fa-lg"></i></a>
-							<a href="#"><i class="fa fa-phone fa-lg" onclick="alert('Ananya Roy: 9433040226')"></i></a>
-							<a href="mailto:sae.nitdgp1@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
+							<a href="#"><i class="fa fa-phone fa-lg"  data-toggle="tooltip" title="Ananya Roy: 9433040226"></i></a>
+							<a href=""><i class="fa fa-envelope fa-lg"  data-toggle="tooltip" title="royroy.ananya@gmail.com"></i></a>
 						</div>
 					</div>
 					<div class="col s12 m6 l3">
@@ -178,8 +179,8 @@
 							<h5>Vikram Reddy</h5>
 							<h6><i>Treasurer</i></h6>
 							<a href="https://www.facebook.com/kovvuri.vikram?ref=br_rs"><i class="fa fa-facebook fa-lg"></i></a>
-							<a href=""><i class="fa fa-phone fa-lg" onclick="alert('Vikram Reddy: 7063282644')"></i></a>
-							<a href="mailto:sae.nitdgp1@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
+							<a href=""><i class="fa fa-phone fa-lg"  data-toggle="tooltip" title="Vikram Reddy: 7063282644"></i></a>
+							<a href=""><i class="fa fa-envelope fa-lg"  data-toggle="tooltip" title="kovvurivikram11@gmail.com"></i></a>
 						</div>
 					</div>
 				</div>
@@ -325,5 +326,10 @@
               <script>
               new WOW().init();
               </script>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
+</script>
 </body>
 </html>
