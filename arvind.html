@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="min/plugin-min.css">
 	<link rel="stylesheet" type="text/css" href="min/custom-min.css">
 	<link rel="stylesheet" type="text/css" href="min/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
@@ -43,9 +44,9 @@
 					<a href="./arvind.html"><img class="activator"  src="images/team/sae/arvind.jpg"></a>
 					<h4>Arvind Satya</h4>
 					<h6><i>President</i></h6>
-					<a href="#"><i class="fa fa-facebook" ></i></a>
-					<a href="#"><i class="fa fa-phone"></i></a>
-					<a href="#"><i class="fa fa-envelope"></i></a>
+					<a href="https://www.facebook.com/satyaarvind" target='_blank'><i class="fa fa-facebook fa-lg"></i></a>
+					<a href="#"><i class="fa fa-phone fa-lg"  data-toggle="tooltip" title="7063698718"></i></a>
+					<a href=""><i class="fa fa-envelope fa-lg"  data-toggle="tooltip" title="arvindsatya11@gmail.com"></i></a>
 				</div>
 			</div>
 			<div class="col s12 m6 l8">
@@ -66,10 +67,15 @@
 	<script src="min/plugin-min.js"></script>
 	<!-- <script src="js/materialize.js"></script> -->
 	<script src="js/materialize.min.js"></script>
+	<!-- <script src="js/slick.js"></script> -->
+	<script src="js/slick.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function () {
 	 		$('.scrollspy').scrollSpy();
 	 		$(".button-collapse").sideNav();
+		});
+		$(document).ready(function(){
+    		$('[data-toggle="tooltip"]').tooltip(); 
 		});
 	</script>
 </body>
