@@ -4270,6 +4270,7 @@ nav .brand-logo {
   display: inline-block;
   font-size: 2.1rem;
   padding: 0px 50px;
+  width: 40%;
 }
 
 nav .brand-logo1 {
@@ -4282,7 +4283,7 @@ nav .brand-logo1 {
 
 nav .brand-logo .logo-img {
   /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-  width: 50%
+  width: 100%
 }
 
 nav .brand-logo1 .logo-img {
