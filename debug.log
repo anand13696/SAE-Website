@@ -63,6 +63,7 @@
 [1021/085626.300:ERROR:crashpad_client_win.cc(660)] crash server failed to launch, no dump captured
 [1025/230634.829:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
 [1025/230634.829:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
+
 [1025/230634.829:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
 [1025/230634.829:ERROR:persistent_memory_allocator.cc(678)] Corruption detected in shared-memory segment.
 [1025/230634.830:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\settings.dat: Access is denied. (0x5)
