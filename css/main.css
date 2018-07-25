@@ -131,24 +131,24 @@
   text-align: center;
 }
 .team-s img {
-  width: 110px;
-  height: 110px;
-  border-radius: 25px;
+  width: 130px;
+  height: 130px;
+  border-radius: 60px;
   -webkit-transition: border-radius 200ms;
   -moz-transition: border-radius 200ms;
   -ms-transition: border-radius 200ms;
   -o-transition: border-radius 200ms;
   transition: border-radius 200ms;
-  transform: rotate(-20deg);
+ /* transform: rotate(-20deg);*/
 }
-.team-s img:hover {
-  width: 110px;
-  height: 110px;
-  border-radius: 55px;
+/*.team-s img:hover {
+  width: 130px;
+  height: 130px;
+  border-radius: 50px;
   transition-duration: 200ms;
   animation: roll 800ms;
   animation-delay: 150ms;
-}
+}*/
 @keyframes roll {
   0% {
     transform: rotateY(0);
